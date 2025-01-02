@@ -20,3 +20,5 @@ model.compile(optimizer = "adam", # recall: gradient descent, stochastic gradien
 
 history = model.fit(training_images, training_labels, epochs=30,
                     validation_data=[testing_images, testing_labels])
+
+# ~10% validation accuracy
